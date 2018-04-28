@@ -1,7 +1,7 @@
 <?php namespace Wms\Scaffold\Classes\Console;
 
 class CreateController extends \October\Rain\Scaffold\Console\CreateController {
-    protected $name = 'create:controller';
+    protected $name = 'create:controller:wms';
 
     protected $stubs = [
         'controller/_list_toolbar.stub'    => 'controllers/{{lower_name}}/_list_toolbar.htm',
