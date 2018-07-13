@@ -1,0 +1,8 @@
+{
+  "name": "wmstudio/october-scaffold",
+  "license": "GPL-3.0",
+  "description": "Описание моделей и контроллеров на русском",
+  "require": {
+    "php": "^7.0"
+  }
+}
