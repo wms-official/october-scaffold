@@ -13,8 +13,6 @@ class {{studly_name}} extends Model
 //    use \October\Rain\Database\Traits\NestedTree;
     use \October\Rain\Database\Traits\SoftDelete;
 
-    const SORT_ORDER = 'sort_order';
-
     public $table = '{{lower_author}}_{{lower_plugin}}_{{snake_plural_name}}';
 
     public $rules = [];

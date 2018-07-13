@@ -1,5 +1,6 @@
 <?php namespace Wms\Scaffold;
 
+use Carbon\Carbon;
 use Illuminate\Support\Facades\App;
 use System\Classes\PluginBase;
 
@@ -14,6 +15,7 @@ class Plugin extends PluginBase {
     }
 
     public function boot() {
+        Carbon::setLocale(config('app.locale'));
         App::register('\Wms\Scaffold\Classes\ScaffoldServiceProvider');
     }
 }
